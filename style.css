@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background:linear-gradient(180deg, #292436 0%, #16141B 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #8254F6;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #8254F6;
+    margin-bottom: 48px;
+}
+
+.conteudo-produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo-imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.conteudo-produtos-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.conteudo-produtos-escrito-titulo {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.conteudo-produtos-topicos {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo-produtos-topicos-imagem {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.conteudo-produtos-escrito-botao {
+    background-color: #A886FF;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 62px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-produtos-escrito-botao:hover {
+    color: #8254F6;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.conteudo-sobre-titulo {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.conteudo-sobre-paragrafo {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rodape{
+    border-top: 0.4px solid #8254F6;
+    padding: 22px;
+    background-color: #8254F6;
+}
+
+.rodape-titulo{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rodape-imagem {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.rodape-paragrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
