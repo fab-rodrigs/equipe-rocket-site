@@ -12,53 +12,64 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item">Equipe Rocket</a>
-            <a class="cabecalho-menu-item">Produtos</a>
-            <a class="cabecalho-menu-item">Sobre</a>
-            <a class="cabecalho-menu-item">Contato</a>
+            <a href="#eqrock" class="cabecalho-menu-item">Equipe Rocket</a>
+            <a href="#prod" class="cabecalho-menu-item">Produtos</a>
+            <a href="#sobre" class="cabecalho-menu-item">Sobre</a>
+            <a href="#contato" class="cabecalho-menu-item">Contato</a>
         </nav>
     </header>
 
     <main class="conteudo">
-        <img class="conteudo-imagem" src="assets/logo.svg" alt="Equipe Rocket">
-        <section class="conteudo-produtos">
+        <img id="eqrock" class="conteudo-imagem" src="assets/logo.svg" alt="Equipe Rocket">
+        <!--<img class= "conteudo-imagem" src="assets/topo.svg" alt="Fundo edição">-->
+        <section id="prod" class="conteudo-produtos">
             <div class="conteudo-produtos-escrito">
                 <h1 class="conteudo-produtos-escrito-titulo">Nossos produtos:</h1>
-                <!-- coloquei div pro display flex deixar esses cards na horizontal -->
+
                 <div>
                     <h3 class="conteudo-produtos-topicos">1. Vídeos para Instagram</p>
-                        <img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Reels estilo Nutella">
-                        
-                        <h3 class="conteudo-produtos-topicos">2. Anúncios</p>
-                        <img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Anúncio para Mídia Indoor">
+                    <!--<img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Reels estilo Nutella">-->
+                    <iframe class="conteudo-produtos-topicos-imagem" width="560" height="315" src="https://www.youtube.com/embed/kyno2JOOoHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <h3 class="conteudo-produtos-topicos">2. Anúncios</p>
+                    <!--<img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Anúncio para Mídia Indoor">-->
+                    <iframe class="conteudo-produtos-topicos-imagem" width="560" height="315" src="https://www.youtube.com/embed/pFIdd8ZMac4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
-                <!-- coloquei div pro display flex deixar esses cards na horizontal -->
                 <div>
                     <h3 class="conteudo-produtos-topicos">3. Vinhetas / Intros</p>
-                        <img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Intro estilo 2d animada">
-                        
-                        <h3 class="conteudo-produtos-topicos">4. Posts Instagram</p>
-                        <img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Post estilo carrosel">
+                    <!--<img class="conteudo-produtos-topicos-imagem" src="assets/retangulo.svg" alt="Intro estilo 2d animada">-->
+                    <iframe class="conteudo-produtos-topicos-imagem" width="560" height="315" src="https://www.youtube.com/embed/z2maNdTJl-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <h3 class="conteudo-produtos-topicos">4. Posts Instagram</p>
+                    <img class="conteudo-produtos-topicos-imagem" src="assets/posts.svg" alt="Post estilo carrosel">
                 </div>
-                
+
             </div>
         </section>
 
-        <button class="conteudo-produtos-escrito-botao" href="https://forms.gle/xwmfUuf2KkErGqQ66">Faça seu pedido!</button>
+        <a href="https://forms.gle/xwmfUuf2KkErGqQ66"><button class="conteudo-produtos-escrito-botao">Faça seu pedido!</button></a>
+        <!--<button class="conteudo-produtos-escrito-botao" href="https://forms.gle/xwmfUuf2KkErGqQ66">Faça seu pedido!</button>-->
         
-        <section class="conteudo-sobre">
+        <section id="sobre" class="conteudo-sobre">
             <h2 class="conteudo-sobre-titulo"><strong>Sobre nós:</strong></h2>
             <p class="conteudo-sobre-paragrafo">Trabalhamos com  design desde 2016, promovendo soluções na área audiovisual. Começamos atuando na área como uma forma de hobby, mas com o tempo percebemos que aquilo que gostávamos de fazer podia virar uma fonte de renda.</p>
         </section>
     </main>
 
-    <footer class="rodape">
+    <footer id="contato" class="rodape">
         <h2 class="rodape-titulo">Contato:</h2>
-        <img class="rodape-imagem" src="assets/mail.svg" alt="Email">
-        <p class="rodape-paragrafo">equiperocket.design@gmail.com</p>
-        <img class="rodape-imagem" src="assets/insta.svg" alt="Instagram">
-        <p class="rodape-paragrafo" href="https://www.instagram.com/equiperocket.design/">@equiperocket.design</p>
+
+        <div>
+            <img class="rodape-imagem" src="assets/mail.svg" alt="Email">
+            <a href=mailto:equiperocket.design@gmail.com class="rodape-paragrafo">equiperocket.design@gmail.com</a>
+        </div>
+
+        <div>
+            <img class="rodape-imagem" src="assets/insta.svg" alt="Instagram">
+            <a class="rodape-paragrafo" href="https://www.instagram.com/equiperocket.design/">@equiperocket.design</a>
+        </div>
+
     </footer>
 </body>
 
